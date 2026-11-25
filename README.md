@@ -72,7 +72,7 @@ pip install -r requirements.txt
 ### 4. Configure environment variables
 Create a `.env` file in the project root:
 ```env
-MISTRAL_API_KEY=your_mistral_api_key_here
+GOOGLE_API_KEY=google_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
 
