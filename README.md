@@ -2,7 +2,7 @@
 
 A multi-agent AI pipeline that automates end-to-end research report generation from a single topic query. Four specialized agents — **Search**, **Scrape**, **Write**, and **Critique** — collaborate to gather live information, extract deep content, draft a structured report, and score its quality.
 
-Built with **LangChain**, **Mistral AI**, **Tavily Search**, and **Streamlit**.
+Built with **LangChain**, **Google Gemini**, **Tavily Search**, and **Streamlit**.
 
 ---
 
@@ -98,7 +98,7 @@ Enter a topic, click **Run Research Pipeline**, and watch each agent complete it
 
 | Layer | Technology |
 |---|---|
-| LLM | Mistral AI (`mistral-medium-3-5`) |
+| LLM | GOOGLE GEMINI (`gemini-3.5-flash-lite`) |
 | Agent Framework | LangChain (`create_agent`) |
 | Web Search | Tavily Search API |
 | Web Scraping | Requests + BeautifulSoup |

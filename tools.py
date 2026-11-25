@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from langchain_tavily import TavilySearch
 from rich import print
 
-search_tool = TavilySearch(max_result = 5)
+search_tool = TavilySearch(max_results = 5)
 
 @tool
 def web_search(query:str) -> str:
